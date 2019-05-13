@@ -3,10 +3,7 @@ package com.cath.project;
 import cucumber.api.java.gl.E;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Test;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -65,10 +62,41 @@ public static WebDriver driver;
         driver.manage ().window ().maximize ();
     }
 
+
+    public void disAbleAlert()
+    {
+
+    driver.findElement (By.xpath ("//*[@id='onesignal-popover-cancel-button']")).click ();
+//        if (isAlertPresent (driver)) {
+//            Alert al=driver.switchTo ().alert ();
+//            System.out.println (al.getText ());
+//            al.accept ();
+//
+//        }
+
+    }
+
+//public boolean isAlertPresent(WebDriver driver)
+//{
+//    try{
+//
+//        driver.switchTo ().alert ();
+//        return true;
+//
+//    }catch(NoAlertPresentException e)
+//    {
+//        return false;
+//    }
+//}
+
+
     public void closeBrowser()
     {
         driver.quit ();
     }
+
+
+
 
 
     public void applyWaits() throws Exception

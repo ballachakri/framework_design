@@ -29,7 +29,7 @@ public void enterEmailId(String uid,String pwd)
     System.out.println ("entered email");
 
 
-    WebElement radio=driver.findElement (By.cssSelector ("input[id='i_have_a_password_login_form']"));
+    WebElement radio=driver.findElement (By.cssSelector ("input#i_have_a_password_login_form"));
 
     JavascriptExecutor js=(JavascriptExecutor)driver;
 

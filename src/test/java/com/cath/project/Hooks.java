@@ -21,6 +21,8 @@ public class Hooks {
      //   driverManager.clearCookies ();
         driverManager.navigateTo ("https://www.cathkidston.com/");
         driverManager.killCookies ();
+
+        //driverManager.disAbleAlert ();;
     }
 
 //@After
