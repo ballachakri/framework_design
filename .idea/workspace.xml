@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd3b8847-f539-469d-aad5-3e22d0e55544" name="Default Changelist" comment="framework design practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/JvmSam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/SamBrkLinks.java" afterDir="false" />
+    <list default="true" id="bd3b8847-f539-469d-aad5-3e22d0e55544" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/ClickAllLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/GoTo_Without_SendKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cathExercise.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cathExercise.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cath/project/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cath/project/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cath/project/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cath/project/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cath/project/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cath/project/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberReport/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberReport/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cath/project/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cath/project/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cath/project/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cath/project/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cath/project/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cath/project/LoginPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,24 +23,10 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/project/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ScreenShots/Login functionality.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/resources/search.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -66,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/resources/sortByPrice.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -109,11 +87,35 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/SamBrkLinks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/ClickAllLinks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="20" column="42" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/GoTo_Without_SendKeys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,6 +139,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,6 +177,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cath/project/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cath/project/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/SamBrkLinks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/ClickAllLinks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/GoTo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/GoTo_Without_SendKeys.java" />
       </list>
     </option>
   </component>
@@ -199,8 +207,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="917" />
-    <option name="width" value="1410" />
+    <option name="x" value="962" />
+    <option name="width" value="1644" />
     <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -318,9 +326,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SamBrkLinks">
-    <configuration name="BrokenLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cath.project.SamplecodeTesting.BrokenLinks" />
+  <component name="RunManager" selected="Application.GoTo_Without_SendKeys">
+    <configuration name="ClickAllLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cath.project.SamplecodeTesting.ClickAllLinks" />
       <module name="cathExcerise" />
       <extension name="coverage">
         <pattern>
@@ -345,8 +353,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadLess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cath.project.SamplecodeTesting.HeadLess" />
+    <configuration name="GoTo_Without_SendKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cath.project.SamplecodeTesting.GoTo_Without_SendKeys" />
       <module name="cathExcerise" />
       <extension name="coverage">
         <pattern>
@@ -416,11 +424,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoTo_Without_SendKeys" />
+        <item itemvalue="Application.ClickAllLinks" />
         <item itemvalue="Application.SamBrkLinks" />
         <item itemvalue="Application.JvmSam" />
         <item itemvalue="Application.ExcelRead" />
-        <item itemvalue="Application.HeadLess" />
-        <item itemvalue="Application.BrokenLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557685315152</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="framework design practice">
+      <created>1557750862546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557750862546</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -478,10 +493,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="770" y="0" width="1315" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.46740222" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.08286779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,7 +505,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.07186545" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4648318" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5295031" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24770643" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -733,7 +748,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/resources/sortByPrice.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -757,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/project/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -779,8 +794,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/SamBrkLinks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/ClickAllLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="20" column="42" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/project/SamplecodeTesting/GoTo_Without_SendKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
