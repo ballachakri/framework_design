@@ -14,3 +14,6 @@ Feature: search
       Examples:
       | product |
       | shirt |
+      | paints |
+      | mirror |
+      | hand bags |

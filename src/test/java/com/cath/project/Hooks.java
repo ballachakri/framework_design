@@ -25,7 +25,8 @@ public class Hooks {
         //driverManager.disAbleAlert ();;
     }
 
-//@After
+
+    @After
     public void tearDownBrowser(Scenario src) throws IOException {
         Utils util=new Utils ();
         if (src.isFailed ())

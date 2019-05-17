@@ -25,30 +25,16 @@ public void enterEmailId(String uid,String pwd)
 {
 
     driver.findElement (By.xpath ("//input[@id='j_username']")).sendKeys (uid);
-
-    System.out.println ("entered email");
-
-
-    WebElement radio=driver.findElement (By.cssSelector ("input#i_have_a_password_login_form"));
-
+    WebElement radio=driver.findElement (By.xpath ("//*[@id='login_form']/fieldset/div[2]/div[1]/label"));
     JavascriptExecutor js=(JavascriptExecutor)driver;
-
-    //js.executeScript ("scroll(0,350");
     js.executeScript ("arguments[0].scrollIntoView(true)",radio);
+    radio.click ();
+    System.out.println ("radio button clicked");
+    WebDriverWait wait=new WebDriverWait (driver,3000);
+    WebElement pwdTxt=wait.until (ExpectedConditions.visibilityOfElementLocated (By.xpath ("//input[@id='j_password']")));
+    pwdTxt.sendKeys (pwd);
 
-    System.out.println (radio.isDisplayed ());
-    System.out.println (radio.isSelected ());
-    System.out.println (radio.isEnabled ());
-    System.out.println (radio.getText ());
-//    radio.click ();
-
-
-
-    System.out.println ("clicked have pwd");
-            driver.findElement (By.xpath ("//input[@id='j_password']")).sendKeys (pwd);
-    System.out.println ("entered password");
-
-    WebElement sub= driver.findElement (By.xpath ("/*[@id='login_form_fields']/div[3]/button"));
+    driver.findElement (By.xpath ("//button[@class='submit button btn btn_primary btn_large btn_block']")).click ();
 
 
 }

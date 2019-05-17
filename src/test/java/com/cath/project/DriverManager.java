@@ -8,12 +8,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import javax.xml.bind.SchemaOutputResolver;
 
 public class DriverManager {
 
-private String browser="rome";
+private String browser="chrome";
 
 public static WebDriver driver;
 
@@ -53,8 +55,12 @@ public static WebDriver driver;
 
     public void killCookies()
     {
-        driver.findElement (By.xpath ("//div[@class='cookie_cta']")).click ();
+        WebDriverWait wait=new WebDriverWait (driver,3000);
 
+        WebElement cookie= wait.until (ExpectedConditions.visibilityOfElementLocated (By.xpath ("//div[@class='cookie_cta']")));
+        cookie.click ();
+        WebElement noti=wait.until (ExpectedConditions.visibilityOfElementLocated (By.xpath ("//button[@id='onesignal-popover-cancel-button']")));
+        noti.click ();
     }
 
     public void maximizeBrowser()
@@ -63,33 +69,10 @@ public static WebDriver driver;
     }
 
 
-    public void disAbleAlert()
-    {
+    public void disAbleAlert() {
 
-    driver.findElement (By.xpath ("//*[@id='onesignal-popover-cancel-button']")).click ();
-//        if (isAlertPresent (driver)) {
-//            Alert al=driver.switchTo ().alert ();
-//            System.out.println (al.getText ());
-//            al.accept ();
-//
-//        }
 
     }
-
-//public boolean isAlertPresent(WebDriver driver)
-//{
-//    try{
-//
-//        driver.switchTo ().alert ();
-//        return true;
-//
-//    }catch(NoAlertPresentException e)
-//    {
-//        return false;
-//    }
-//}
-
-
     public void closeBrowser()
     {
         driver.quit ();

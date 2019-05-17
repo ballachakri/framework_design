@@ -12,4 +12,4 @@ Feature: Login
     Then i should be able to see my account details
     Examples:
     |username|password|
-    |ballachakri@yahoo.com|Khalifa123.|
+    |ballachakri@yahoo.com|Khalifa123|

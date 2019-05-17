@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.cath.project.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 158.668 s <<< FAILURE! - in com.cath.project.TestRunner
+When i have search for a "paints"(| paints |)  Time elapsed: 0.257 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="submit" type="submit"> is not clickable at point (1242,18) because another element <div id="onesignal-popover-container" class="onesignal-popover-container onesignal-reset slide-down"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHAKRA-PC', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 35248, moz:profile: C:\Users\sball\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 536b406c-10e7-4971-800d-ed48bc4ba8f2
+
+| paints |  Time elapsed: 0.257 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="submit" type="submit"> is not clickable at point (1242,18) because another element <div id="onesignal-popover-container" class="onesignal-popover-container onesignal-reset slide-down"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHAKRA-PC', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 35248, moz:profile: C:\Users\sball\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 536b406c-10e7-4971-800d-ed48bc4ba8f2
+
